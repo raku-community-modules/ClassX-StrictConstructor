@@ -1,12 +1,23 @@
 {
-    "perl"        : "6.c",
-    "name"        : "ClassX::StrictConstructor",
-    "license"     : "MIT",
-    "version"     : "0.1",
-    "description" : "Make your object constructors blow up on unknown attributes",
-    "provides": {
-        "ClassX::StrictConstructor": "lib/ClassX/StrictConstructor.pm"
-    },
-    "depends"     : [],
-    "source-url"  : "git://github.com/tadzik/ClassX-StrictConstructor.git"
+  "auth": "zef:raku-community-modules",
+  "author": "Tadeusz Sośnierz",
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Make your object constructors blow up on unknown attributes",
+  "license": "MIT",
+  "name": "ClassX::StrictConstructor",
+  "perl": "6.c",
+  "provides": {
+    "ClassX::StrictConstructor": "lib/ClassX/StrictConstructor.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/ClassX-StrictConstructor.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.1"
 }

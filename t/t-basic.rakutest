@@ -48,5 +48,7 @@ lives-ok { Tricky.new(thing => 1, spy => 99) },
          'can work around strict constructor by deleting params in new()';
 throws-like { Tricky.new(thing => 1, agent => 99) }, X::UnknownAttribute;
 
-# MooseX::StrictConstructor InitArg tests are not here, because nothing like init_arg
-# exists in Perl 6
+# MooseX::StrictConstructor InitArg tests are not here, because nothing
+# like init_arg exists in Raku
+
+# vim: expandtab shiftwidth=4
